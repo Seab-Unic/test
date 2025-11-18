@@ -1,5 +1,3 @@
-import random
-
 a = int(input("размер теругольника - "))
 for i in range(1, a+1):
     if i == 1:
@@ -10,3 +8,4 @@ for i in range(1, a+1):
         b = ' ' * (a - i)
         b = ' '*(2*i-3)
         print(b+'*'+b + '*')
+
